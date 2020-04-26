@@ -9,14 +9,6 @@
 the function of a. has been already accomplished.
 # Instruction
 + Step 1 ：build the docker by the "Dockerfile"
-...
-docker build -f Dockerfile .
-...
-
 ``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
+docker build -f Dockerfile .
 ```
