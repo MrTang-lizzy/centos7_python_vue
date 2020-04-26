@@ -8,7 +8,8 @@
 # Progress
 the function of a. has been already accomplished.
 # Instruction
-+ Step 1 ：build the docker by the "Dockerfile"
++ Step 1 : download the "Dockerfile" to the local.
++ Step 2 ：build the docker by the "Dockerfile".
 ``` js
-docker build -f Dockerfile .
+docker build -t centos7_python_vue:1.0 .
 ```
