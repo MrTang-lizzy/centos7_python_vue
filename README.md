@@ -13,7 +13,7 @@ the function of a. has been already accomplished.
 ``` js
 docker build -t centos7_python_vue:1.0.0 .
 ```
-+ Step 3 ：run the docker image "centos7_python_vue:1.0.0"
++ Step 3 ：run the docker image "centos7_python_vue:1.0.0".
 ``` js
 docker run -it centos7_python_vue:1.0.0 .
 ```
