@@ -11,5 +11,9 @@ the function of a. has been already accomplished.
 + Step 1 : download the "Dockerfile" to the local.
 + Step 2 ：build the docker by the "Dockerfile".
 ``` js
-docker build -t centos7_python_vue:1.0,0 .
+docker build -t centos7_python_vue:1.0.0 .
+```
++ Step 3 ：run the docker image "centos7_python_vue:1.0.0"
+``` js
+docker run -it centos7_python_vue:1.0.0 .
 ```
